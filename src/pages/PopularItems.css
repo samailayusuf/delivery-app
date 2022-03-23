@@ -1,0 +1,55 @@
+.popularItem .itemsText {
+    text-align: center;
+}
+.popularItem input {
+    height: 35px;
+    width: auto;
+    border-radius: 10px;
+    border: 1px solid #EAEEEA;
+    background-color: #F5F5F5;
+    outline: none;
+  }
+.photos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+    padding: 20px 20px;
+}
+.photos-grid .photo {
+    background-color: blue;
+    height: 400px;
+    border-radius: 14px;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.photos-rid .photo .images {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    height: 160px;
+}
+.photos-grid .photo .images img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transition: o.8s;
+}
+.photos-grid .photo:hover img {
+    transform: scale(1.2);
+}
+.photos-grid .photo .details {
+    position: relative;
+    padding: 15px;
+}
+.photos-grid .photo .details h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.photos-grid .photo .details .stars-icons {
+    font-size: 18px;
+    font-weight: bold;
+    color:yellow;
+}

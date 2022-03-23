@@ -1,0 +1,65 @@
+.item-description  {
+    margin: auto;
+     width: 362px;
+     max-width: 100%;
+     background-color: blue;
+     border-radius: 10px;
+ }
+ .item-description img {
+     border-radius: 10px;
+     height: 100%;
+     width: 100%;
+ }
+ .item-description .details .pep {
+     text-align: center;
+     color: white;
+ }
+ .item-description .details .pizzaDetails{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .item-description .details .pizzaDetails h2{
+     color: blue;
+ }
+ .pizzaDetails .pizzaSigns button {
+     padding: 0px 10px;
+     background-color: white;
+     border: none;
+     outline: none;
+     border-radius: 3px;
+     margin-left: 12px;
+ }
+ .inputDetails .pizzaSigns span {
+     padding: 0px 10px;
+ }
+ .inputDetails {
+     padding: 10px 12%;
+ }
+ .inputDetails label {
+     text-align: center;
+     font-weight: bold;
+     color: black;
+ }
+ .inputDetails input {
+     margin-left: 3rem;
+ }
+ .inputDetails #number {
+     width: 70px;
+     margin-left: 6rem;
+ }
+ .de {
+     background-color: gainsboro;
+     border-radius: 10px;
+     padding: 20px 0px;
+ }
+ .item-description .order-now {
+     text-align: center;
+     margin: 3rem 0px 3rem 8rem;
+     padding: 16px 20px;
+     font-size: 20px;
+     font-weight: bold;
+     cursor: pointer;
+     border: none;
+     outline: none;
+ }
+  

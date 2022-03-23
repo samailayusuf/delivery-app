@@ -1,0 +1,32 @@
+
+.footer {
+    height: 25vh;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.footer h2 {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.footer ul li {
+    list-style: none;
+    color:'white'
+}
+
+li{
+    list-style-type: none;
+    color:'white'
+}
+
+.footer ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+

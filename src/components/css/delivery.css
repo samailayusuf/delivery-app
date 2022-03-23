@@ -1,0 +1,25 @@
+.deliver {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.deliver img {
+    width: 150px;
+    height: 130px;
+}
+
+.deliver h2 {
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bolder;
+}
+
+.deliver p {
+    line-height: 30px;
+}
+
+.deliver  a {
+    text-decoration: none;
+    font-weight: bold;
+}

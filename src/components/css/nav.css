@@ -1,0 +1,48 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+
+.heading {
+  padding-left: 9%;
+  color: dodgerblue;
+}
+
+nav {
+  padding-top: 15px;
+  padding-right: 18%;
+
+  }
+
+nav a {
+  text-decoration: none;
+  color:black;
+  padding: 10px;
+  cursor: pointer;
+}
+
+nav .signUp {
+  padding: 8px;
+  width: 100px;
+  background-color: dodgerblue;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+nav a.router-link-exact-active {
+  color: white;
+}
+
+  

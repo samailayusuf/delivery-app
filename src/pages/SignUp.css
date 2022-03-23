@@ -1,0 +1,54 @@
+.form-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 20px 5%;
+  }
+  form {
+    width: 450px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px;
+    gap: 5px;
+  }
+  form input {
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #EAEEEA;
+    background-color: #F5F5F5;
+    outline: none;
+    padding: 10px;
+  }
+  form label {
+    display: flex;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  form .btn {
+    background-color: dodgerblue;
+    color:  white;
+    padding: 15px 30px;
+    margin-top: 2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+  }
+  .reg h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 8px;
+    font-weight: bold;
+  }
+  .reg p {
+    text-align: center;
+    font-weight: 600;
+  }

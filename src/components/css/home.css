@@ -1,0 +1,25 @@
+
+
+.heroSection {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.heroSection .description {
+    margin-top: 3rem;
+}
+
+.description .have {
+    line-height: 35px;
+}
+
+.description .link a {
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.description .link {
+    margin-top: 2rem;
+}

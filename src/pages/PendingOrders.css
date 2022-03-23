@@ -1,0 +1,29 @@
+.box{
+    background-color: rgba(38, 47, 248, 0.5);
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    border-radius:5px;
+    color: white;
+}
+
+.center{
+    margin: 10px auto;
+}
+
+.flex{
+    display: flex;
+    margin:  10px 10px;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.space-between{
+    justify-content: space-around;
+}
